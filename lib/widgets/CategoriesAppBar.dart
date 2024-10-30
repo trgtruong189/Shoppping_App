@@ -10,7 +10,7 @@ class CategoriesAppBar extends StatelessWidget {
         children: [
           InkWell(
             onTap: () {
-              Navigator.pop(context);
+              Navigator.pushNamed(context, "/");
             },
             child: Icon(
               Icons.arrow_back,
